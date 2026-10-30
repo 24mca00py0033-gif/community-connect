@@ -10,7 +10,7 @@ const router = express.Router();
 // keep the uploaded image in memory, then send it to Cloudinary
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5 MB
+  limits: { fileSize: 4 * 1024 * 1024 }, // 4 MB (Vercel allows ~4.5 MB per request)
   fileFilter: (req, file, cb) => {
     if (file.mimetype.startsWith("image/")) cb(null, true);
     else cb(new Error("Only image files are allowed"));

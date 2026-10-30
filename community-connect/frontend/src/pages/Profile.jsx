@@ -71,7 +71,7 @@ export default function Profile() {
           <div>
             <label>Profile picture</label>
             <input type="file" accept="image/*" onChange={onFile} />
-            <p className="muted small">JPG or PNG, up to 5 MB. Stored on Cloudinary.</p>
+            <p className="muted small">JPG or PNG, up to 4 MB. Stored on Cloudinary.</p>
           </div>
         </div>
 
