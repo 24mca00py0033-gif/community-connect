@@ -45,7 +45,7 @@ export default function Search() {
         </div>
         <div>
           <label>Profession</label>
-          <input name="profession" value={form.profession} onChange={onChange} placeholder="CA, CE, ..." />
+          <input name="profession" value={form.profession} onChange={onChange} placeholder="CA, CS, CMA" />
         </div>
         <div>
           <label>Locality</label>

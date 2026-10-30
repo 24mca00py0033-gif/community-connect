@@ -390,6 +390,65 @@ form .btn { margin-top: 22px; }
 .motto span { display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; opacity: 0.8; }
 .motto strong { font-family: "Rubik", sans-serif; font-size: 1.6rem; }
 
+/* ---------- Beta badge + extra About sections ---------- */
+.beta-badge {
+  display: inline-block;
+  background: #fff3d6;
+  color: #a16207;
+  border: 1px solid #f3d98f;
+  padding: 1px 10px;
+  border-radius: 999px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.beta-badge-dark { align-self: flex-start; flex-shrink: 0; }
+
+.about-intro {
+  background: var(--soft);
+  border-radius: 26px;
+  padding: 28px 30px;
+  margin-bottom: 22px;
+  font-size: 1.02rem;
+  color: #3b4054;
+}
+.role-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 22px; }
+.role-card { border-radius: 24px; padding: 24px; text-align: center; }
+.role-badge { display: block; font-family: "Rubik", sans-serif; font-weight: 700; font-size: 2rem; }
+.role-card p { margin-top: 4px; font-size: 0.9rem; color: #3b4054; font-weight: 500; }
+
+.about-heading { margin: 38px 0 18px; font-size: 1.6rem; }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.step { background: var(--soft); border-radius: 24px; padding: 24px; }
+.step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--indigo);
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.step h3 { font-size: 1.05rem; margin-bottom: 6px; }
+.step p { color: var(--muted); font-size: 0.9rem; }
+
+.beta-note {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  margin-top: 30px;
+  background: #fff3d6;
+  border-radius: 26px;
+  padding: 26px 30px;
+}
+.beta-note h3 { font-size: 1.15rem; margin-bottom: 6px; }
+.beta-note p { color: #6b5a2b; font-size: 0.95rem; }
+
 /* ---------- Footer ---------- */
 .footer { background: #14182f; color: #b9bfd8; padding: 56px 44px 26px; }
 .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 36px; }
@@ -418,7 +477,8 @@ form .btn { margin-top: 22px; }
   .hero-actions { justify-content: center; }
   .hero h1 { font-size: 2.8rem; }
   .band h2 { font-size: 2rem; }
-  .feature-grid, .about-grid { grid-template-columns: 1fr; }
+  .feature-grid, .about-grid, .role-grid, .steps { grid-template-columns: 1fr; }
+  .beta-note { flex-direction: column; }
   .search-form, .filter-bar { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .cta { margin: 0 22px 50px; }

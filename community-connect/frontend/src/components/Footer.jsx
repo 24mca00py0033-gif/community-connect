@@ -10,8 +10,8 @@ export default function Footer() {
             <BrandMark /> Community Connect
           </div>
           <p>
-            Connecting the community with each other. Built for the PAREK
-            community: CAs, CEs and professionals from every field.
+            Connecting the community with each other. Built for the Pareek
+            community's CA, CS and CMA professionals. Currently in beta.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <span>© 2026 Community Connect. All rights reserved.</span>
-        <span>Made with care for the PAREK community</span>
+        <span>Beta version · Made with care for the Pareek community</span>
       </div>
     </footer>
   );

@@ -106,7 +106,7 @@ export function HeroArt() {
         <g className="art-float-c" filter="url(#cc-shadow-a)">
           <rect x="22" y="226" width="100" height="46" rx="14" fill="#fff" />
           <circle cx="46" cy="249" r="12" fill="#ff7a3d" />
-          <text x="64" y="254" fontSize="15" fontWeight="700" fill="#1f2330" fontFamily={FONT}>CE</text>
+          <text x="64" y="254" fontSize="15" fontWeight="700" fill="#1f2330" fontFamily={FONT}>CS</text>
         </g>
         <g className="art-float-a" filter="url(#cc-shadow-a)">
           <rect x="268" y="398" width="132" height="46" rx="14" fill="#fff" />
@@ -128,8 +128,8 @@ export function HeroArt() {
 export function ListArt() {
   const rows = [
     { y: 110, dx: 0, bg: "#ffd9c7", shirt: "#ff7a3d", w: 130, tag: "CA", tagBg: "#dff5e9", tagFg: "#1f7a4d", cls: "art-float-a" },
-    { y: 200, dx: 34, bg: "#dcd8ff", shirt: "#5b5bd6", w: 108, tag: "CE", tagBg: "#ffe9c9", tagFg: "#b45309", cls: "art-float-b" },
-    { y: 290, dx: -8, bg: "#cdf3e4", shirt: "#2f9e63", w: 142, tag: "Lawyer", tagBg: "#ffd9e2", tagFg: "#be185d", cls: "art-float-c" },
+    { y: 200, dx: 34, bg: "#dcd8ff", shirt: "#5b5bd6", w: 108, tag: "CS", tagBg: "#ffe9c9", tagFg: "#b45309", cls: "art-float-b" },
+    { y: 290, dx: -8, bg: "#cdf3e4", shirt: "#2f9e63", w: 142, tag: "CMA", tagBg: "#ffd9e2", tagFg: "#be185d", cls: "art-float-c" },
   ];
 
   return (

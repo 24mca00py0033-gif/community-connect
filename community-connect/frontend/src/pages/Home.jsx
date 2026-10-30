@@ -27,8 +27,9 @@ export default function Home() {
             Bring your <span className="hl">community</span> together
           </h1>
           <p className="lead">
-            Community Connect helps CAs, CEs and professionals of the PAREK
-            community find each other by locality, career and company.
+            Community Connect helps the Pareek community's Chartered
+            Accountants, Company Secretaries and Cost &amp; Management
+            Accountants find each other by company, profession and locality.
           </p>
           <div className="hero-actions">
             <Link to="/search" className="btn">Find people</Link>

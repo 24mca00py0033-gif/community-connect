@@ -1,6 +1,6 @@
 # Community Connect
 
-A simple MERN web app that connects India's CAs, CEs and other professionals of the PAREK community by locality, career and company.
+A simple MERN web app (beta) that connects the Pareek community's Chartered Accountants (CA), Company Secretaries (CS) and Cost & Management Accountants (CMA) by company, profession and locality.
 
 **Stack:** Node.js + Express (backend) · React + Vite (frontend) · MongoDB (database) · JWT + bcrypt (auth) · Cloudinary (profile pictures)
 

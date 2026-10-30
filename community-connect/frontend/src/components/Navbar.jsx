@@ -16,6 +16,7 @@ export default function Navbar() {
     <header className="navbar">
       <Link to="/" className="brand">
         <BrandMark /> Community Connect
+        <span className="beta-badge">Beta</span>
       </Link>
 
       {user ? (

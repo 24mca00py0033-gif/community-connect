@@ -92,7 +92,7 @@ export default function Profile() {
         <div className="two-col">
           <div>
             <label>Profession</label>
-            <input name="profession" value={form.profession} onChange={onChange} placeholder="CA, CE, ..." />
+            <input name="profession" value={form.profession} onChange={onChange} placeholder="CA, CS, CMA" />
           </div>
           <div>
             <label>Company</label>
