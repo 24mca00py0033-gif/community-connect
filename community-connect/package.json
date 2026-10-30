@@ -2,22 +2,12 @@
   "name": "community-connect",
   "version": "1.0.0",
   "private": true,
-  "description": "Community Connect - monolithic MERN app (Express serves the built React frontend)",
+  "description": "Community Connect - MERN app: Express backend + React (Vite) frontend",
   "scripts": {
     "install-all": "npm --prefix backend install && npm --prefix frontend install",
     "build": "npm --prefix frontend run build",
     "start": "npm --prefix backend start",
     "dev:backend": "npm --prefix backend run dev",
     "dev:frontend": "npm --prefix frontend run dev"
-  },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cloudinary": "^2.5.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.9.0",
-    "multer": "^1.4.5-lts.1"
   }
 }
